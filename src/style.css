@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@theme {
+    --color-loginbtn:#162D3A;
+    --color-placeh:#8897AD;
+    --color-inputborder:#D4D7E3;
+    --color-inputbg:#F7FBFF;
+    --color-primaryt:#0C1421;
+    --color-seccondt:#313957;
+    --font-naqi:"Abril Fatface", "serif";
+  
+  }
