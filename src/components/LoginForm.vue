@@ -15,6 +15,11 @@ const passwordValid = ref(false);
 const emailTouched = ref(false);
 const passwordTouched = ref(false);
 
+const goToRegister = () => {
+  pageStore.switchToRegister();
+};
+
+
 const validateEmail = () => {
   const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   emailValid.value = emailPattern.test(email.value);
